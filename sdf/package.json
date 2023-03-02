@@ -1,0 +1,18 @@
+{
+  "name": "reddit-nsr-snoos",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "npm run build && suitecloud account:setup",
+    "deploy": "npm run build && suitecloud project:deploy",
+    "build": "shx rm -rf dist && tsc && npm run copy:xml && npm run copy:build",
+    "copy:xml": "copyfiles -f src/Objects/*.xml dist/Objects && copyfiles -f src/*.xml dist/",
+    "copy:build": "copyfiles -u 1 \"src/FileCabinet/SuiteScripts/snoosweek-demo-2023/client/**\"  dist/"
+  },
+  "devDependencies": {
+    "@hitc/netsuite-types": "^2022.2.16",
+    "@types/node": "^18.11.18",
+    "copyfiles": "^2.4.1",
+    "shx": "^0.3.4",
+    "typescript": "^4.9.4"
+  }
+}

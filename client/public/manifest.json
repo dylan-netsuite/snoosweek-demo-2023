@@ -1,0 +1,10 @@
+{
+  "name": "Snoosweek Demo App",
+  "short_name": "snoosweek-demo-2023",
+  "description": "See what NetSuite-React can do for you!",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2196F3",
+  "icons": []
+}

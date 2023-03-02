@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_nsr_rl_rct_action_handler">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>NS React | RL | Action Handler</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/netsuite-react/scripts/restlets/nsr_rl_rct_action_handler.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_nsr_rl_rct_action_handler">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>NS React | RL | Action Handler</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

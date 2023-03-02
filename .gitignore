@@ -1,0 +1,6 @@
+dist
+node_modules
+.env.development
+package-lock.json
+sdf/src/FileCabinet/SuiteScripts/snoosweek-demo-2023/client
+project.json
